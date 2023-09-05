@@ -4,7 +4,8 @@
   "description": "CLI based Password Manager",
   "main": "dist/main.js",
   "scripts": {
-    "start": "tsc && node ",
+    "build": "tsc",
+    "start": "tsc && node dist/main.js",
     "dev": "nodemon",
     "test": "jest",
     "eslint": "eslint . --ext .ts",
