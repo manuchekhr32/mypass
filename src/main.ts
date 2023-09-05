@@ -6,7 +6,7 @@ import { GenerateAction } from './commands/generate'
 console.log(figlet.textSync('mypass'))
 
 program
-  .command('g, generate')
+  .command('generate')
   .option(
     '-l, --level <level>',
     'Password strength level [low medium high]',

@@ -1,6 +1,6 @@
 import chalk from 'chalk'
 import clipboard from "clipboardy"
-import { generatePassword } from './functions/generate-password'
+import { generatePassword } from '../functions/generate-password'
 
 interface GenerateActionArgs {
   level: PasswordLevel

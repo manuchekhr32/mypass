@@ -1,4 +1,4 @@
-import { PasswordLevel } from '../generate'
+import { PasswordLevel } from '../commands/generate'
 
 export function generatePassword(level: PasswordLevel) {
   const lowercase = 'abcdefghijklmnopqrstuvwxyz';

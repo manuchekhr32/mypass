@@ -1,5 +1,5 @@
 import { PasswordLevel } from '../../src/commands/generate'
-import { generatePassword } from '../../src/commands/functions/generate-password'
+import { generatePassword } from '../../src/functions/generate-password'
 
 const symbolRegex = /[!@#$%^&*()_+\-=[\]{};:.<?>/]/g
 describe("Functions / generatePassword", () => {
