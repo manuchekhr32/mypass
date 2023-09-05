@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "ESNext",
     "esModuleInterop": true,
     "target": "es6",
     "moduleResolution": "node",
@@ -10,5 +10,8 @@
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["**/*.spec.ts"],
-  "lib": ["es2015"]
+  "lib": ["esnext"],
+  "ts-node": {
+    "esm": true
+  }
 }
