@@ -22,7 +22,8 @@
   "pre-push": [
     "eslint",
     "format:write",
-    "test"
+    "test",
+    "build"
   ],
   "prisma": {
     "schema": "prisma/schema.prisma"

@@ -45,24 +45,26 @@ To install MyPass, follow these simple steps:
    ```
 
 ## Usage
+
 Once MyPass is running, you can use the following commands to interact with it:
 
 - `generate`: Generate a new password. You can specify the length and complexity level. Use the `-l` or `--level` flag to set the complexity level (low, medium, or high). The default level is medium. Use the `-c` or `--copy` flag to copy the generated password to the clipboard automatically.
-  Example: 
+  Example:
+
   ```bash
   mypass generate -l high -c
   ```
 
 - `accounts`: View the list of saved accounts and access the main menu for managing accounts. From the account main menu, you can use the following flags to perform specific actions:
-    - `-g <id>` or `--get <id>`: Get the details of a single account by providing the account ID. For example, `accounts -g 1` or `accounts -g example@gmail.com`.
-    - `-e <id>` or `--edit <id>`: Edit the details of an account by providing the account ID.
-    - `-d <id>` or `--delete <id>`: Delete an account by providing the account ID.
-    - `-cp <id>` or `--copy-password <id>`: Copy the password of a specific account by providing the account ID.
+
+  - `-g <id>` or `--get <id>`: Get the details of a single account by providing the account ID. For example, `accounts -g 1` or `accounts -g example@gmail.com`.
+  - `-e <id>` or `--edit <id>`: Edit the details of an account by providing the account ID.
+  - `-d <id>` or `--delete <id>`: Delete an account by providing the account ID.
+  - `-cp <id>` or `--copy-password <id>`: Copy the password of a specific account by providing the account ID.
 
 - `create`: Create a new account. You will be prompted to enter the account name, username, and password.
 
 Note: The MyPass CLI provides intuitive prompts to guide you through the different actions, making it easy to use even without extensive knowledge of the command-line interface.
-
 
 ## Security
 
