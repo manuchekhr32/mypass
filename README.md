@@ -12,33 +12,13 @@ MyPass is a command-line interface (CLI) password manager that helps you generat
 
 To install MyPass, follow these simple steps:
 
-1. Clone the repository from GitHub:
+1. Install npm package:
 
    ```bash
-   git clone https://github.com/manuchekhr32/mypass.git
+   npm install -g @manuchekhr32/mypass
    ```
 
-   Alternatively, you can download the source code directly.
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd mypass
-   ```
-
-3. Install the required dependencies using npm (Node Package Manager):
-
-   ```bash
-   npm install
-   ```
-
-4. To use better install it globally:
-
-   ```bash
-   npm i -g .
-   ```
-
-5. Run MyPass:
+2. Run MyPass:
 
    ```bash
    mypass
