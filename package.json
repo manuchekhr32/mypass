@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CLI based Password Manager",
   "main": "dist/main.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc",
     "start": "tsc && node dist/main.js",
@@ -41,6 +41,9 @@
   "homepage": "https://github.com/manuchekhr32/mypass#readme",
   "devDependencies": {
     "@jest/globals": "^29.6.4",
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/figlet": "^1.5.6",
     "@types/inquirer": "^9.0.3",
     "@types/jest": "^29.5.4",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
@@ -60,6 +63,10 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
     "inquirer": "^9.2.10"
   }
 }
