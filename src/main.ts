@@ -46,7 +46,7 @@ program
 
 program
   .name('mypass')
-  .version('1.0.0')
+  .version('1.0.2')
   .description(
     'Password Manager CLI for managing accounts and generating passwords'
   )
