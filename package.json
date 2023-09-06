@@ -1,5 +1,5 @@
 {
-  "name": "mypass",
+  "name": "@manuchekhr32/mypass",
   "version": "1.0.0",
   "description": "CLI based Password Manager",
   "main": "dist/main.js",
