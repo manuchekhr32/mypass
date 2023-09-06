@@ -2,7 +2,6 @@ import { PrismaClient } from '@prisma/client'
 import { formatDateTime } from '../../functions/format-date'
 import chalk from 'chalk'
 import { AccountMenuResult, AccountsMenu } from './prompts/accounts-menu'
-import { sleep } from '../../functions/delay'
 
 export interface AccountsActionArgs {
   get?: string
