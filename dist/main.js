@@ -64,7 +64,7 @@ commander_1.program
     .action(create_1.CreateAccountAction);
 commander_1.program
     .name('mypass')
-    .version('1.0.2')
+    .version('1.0.3')
     .description('Password Manager CLI for managing accounts and generating passwords')
     .parse(process.argv);
 //# sourceMappingURL=main.js.map
