@@ -28,6 +28,7 @@ web_modules/
 .env
 dist
 .vscode-test
+.idea
 
 # yarn v2
 .yarn/cache
@@ -35,3 +36,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+prisma/*.db
+prisma/*.db-journal
