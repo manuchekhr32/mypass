@@ -26,7 +26,6 @@ web_modules/
 .stylelintcache
 
 .env
-dist
 .vscode-test
 .idea
 
