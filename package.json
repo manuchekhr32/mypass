@@ -5,8 +5,8 @@
   "main": "dist/main.js",
   "type": "commonjs",
   "scripts": {
-    "build": "tsc",
-    "start": "tsc && node dist/main.js",
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/main.js",
     "dev": "nodemon",
     "test": "jest",
     "eslint": "eslint . --ext .ts",
