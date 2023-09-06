@@ -1,6 +1,6 @@
 {
   "name": "@manuchekhr32/mypass",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI based Password Manager",
   "main": "dist/main.js",
   "type": "commonjs",

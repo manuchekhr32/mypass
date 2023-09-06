@@ -15,7 +15,12 @@ const prismaDb = path.join(__dirname, '../prisma/dev.db')
 if (!fs.existsSync(prismaDb)) {
   console.log(chalk.gray('Creating db files...'))
   fs.closeSync(fs.openSync(prismaDb, 'w'))
-  execSync('npx prisma migrate dev --schema=../prisma/schema.prisma')
+  execSync(
+    `npx prisma migrate dev --schema="${path.join(
+      __dirname,
+      '../prisma/schema.prisma'
+    )}"`
+  )
 }
 
 program
@@ -46,7 +51,7 @@ program
 
 program
   .name('mypass')
-  .version('1.0.3')
+  .version('1.0.4')
   .description(
     'Password Manager CLI for managing accounts and generating passwords'
   )

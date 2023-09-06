@@ -41,7 +41,7 @@ const prismaDb = path.join(__dirname, '../prisma/dev.db');
 if (!fs.existsSync(prismaDb)) {
     console.log(chalk_1.default.gray('Creating db files...'));
     fs.closeSync(fs.openSync(prismaDb, 'w'));
-    (0, child_process_1.execSync)('npx prisma migrate dev --schema=../prisma/schema.prisma');
+    (0, child_process_1.execSync)(`npx prisma migrate dev --schema="${path.join(__dirname, '../prisma/schema.prisma')}"`);
 }
 commander_1.program
     .command('generate')
