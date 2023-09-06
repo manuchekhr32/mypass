@@ -35,3 +35,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+prisma/*.db
+prisma/*.db-journal
