@@ -96,9 +96,9 @@ export async function CreateAccountAction(args: CreateAccountActions) {
     ]
   }
   const results = await inquirer.prompt<CreateAccountResult>(questions)
-  console.log('Creating...')
+  console.log(chalk.gray('Creating...'))
   await prisma.account.create({
     data: results,
   })
-  console.log(chalk.green('Successfully created!'))
+  console.log(chalk.green('Account successfully created!'))
 }

@@ -32,6 +32,9 @@ program
 program
   .command('accounts')
   .option('-g, --get <id>', 'Get single account')
+  .option('-cp, --copy-password <id>', 'Copy the password of the account')
+  .option('-e, --edit <id>', 'Get single account')
+  .option('-d, --delete <id>', 'Delete account')
   .description('View accounts')
   .action(AccountsAction)
 
