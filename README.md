@@ -72,4 +72,4 @@ MyPass is provided as-is without any warranty or guarantee. Use it at your own r
 
 ## Contact
 
-If you have any questions or suggestions regarding MyPass, feel free to reach out to us at [manuchekhr3232@gmail.com](mailto:manuchekhr3232@gmail.com) or [@raupov_manuchehr](https://raupov_manuchehr.t.me)
+If you have any questions or suggestions regarding MyPass, feel free to reach out to us at [manuchekhr.3232@gmail.com](mailto:manuchekhr.3232@gmail.com) or [@raupov_manuchehr](https://raupov_manuchehr.t.me)
